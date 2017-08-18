@@ -2,15 +2,18 @@
 
 Make sure that you update existing libraries and packages (using `sudo apt-get update`) before installation.
 
+* Ubuntu Essentials
+  * sudo apt install build-essential
+
 * Basic Installs
   * Compiler
-    * sudo apt-get install gcc g++
+    * sudo apt install gcc g++
   * Vim (#installation/vim)
-    * sudo apt-get -y install vim  vim-nox vim-gtk
+    * sudo apt -y install vim  vim-nox vim-gtk
   * Git
-    * sudo apt-get -y install git 
+    * sudo apt -y install git 
   * wget
-    * sudo apt-get -y install wget  
+    * sudo apt -y install wget  
 
 * Install #installation/erlang
 	* wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb
