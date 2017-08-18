@@ -3,6 +3,8 @@
 Make sure that you update existing libraries and packages (using `sudo apt-get update`) before installation.
 
 * Basic Installs
+  * Compiler
+    * sudo apt-get install gcc g++
   * Vim (#installation/vim)
     * sudo apt-get -y install vim  vim-nox vim-gtk
   * Git
