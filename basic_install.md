@@ -4,6 +4,7 @@ Make sure that you update existing libraries and packages (using `sudo apt-get u
 
 * Ubuntu Essentials
   * sudo apt install build-essential
+  * sudo apt-get install libpq-dev python-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev libffi-dev
 
 * Basic Installs (#installatino/basic_installs)
 	* Compiler (#installatino/basic_installs/compiler)
