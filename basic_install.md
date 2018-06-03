@@ -5,6 +5,18 @@ Make sure that you update existing libraries and packages (using `sudo apt-get u
 * Ubuntu Essentials
   * sudo apt install build-essential
   * sudo apt-get install libpq-dev python-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev libffi-dev
+  * sudo apt -y install gcc g++ libssl-dev
+  * sudo apt-get -y install libncurses5-dev libncursesw5-dev
+  * sudo apt-get -y install libxml2-utils
+  * sudo apt install python-minimal
+  * export LC_ALL="en_US.UTF-8"
+  * export LC_CTYPE="en_US.UTF-8"
+  * sudo dpkg-reconfigure locales
+
+sudo apt-get install libwxbase3.1-0-unofficial libwxbase3.1-devlibwxgtk3.1-0-unofficial libwxgtk3.1-dev wx3.1-headers wx-common libwxgtk-webview3.1-0-unofficial libwxgtk-webview3.1-dev libwxgtk-media3.1-0-unofficial libwxgtk-media3.1-dev libwxbase3.1-0-unofficial-dbg libwxgtk3.1-0-unofficial-dbg libwxgtk-webview3.1-0-unofficial-dbg libwxgtk-media3.1-0-unofficial-dbg wx3.1-i18n wx3.1-examples
+
+sudo apt install docker.io
+sudo gpasswd -a $USER docker
 
 * Basic Installs (#installatino/basic_installs)
 	* Compiler (#installatino/basic_installs/compiler)
